@@ -1,0 +1,110 @@
+﻿source_month,source_table,source_page,hml_category,sector,project_count,original_cost_cr,revised_cost_cr,expenditure_cr
+2026-04,HML Sector Overview,9,Transport & Logistics,Roads & Highways,1137.0,1054523.0,1081116.0,369902.0
+2026-04,HML Sector Overview,9,Transport & Logistics,Railways,262.0,721622.0,874476.0,581286.0
+2026-04,HML Sector Overview,9,Transport & Logistics,Urban Public Transport,27.0,315168.0,335924.0,181939.0
+2026-04,HML Sector Overview,9,Transport & Logistics,Aviation & Aviation Infrastructure,26.0,21601.0,22815.0,10762.0
+2026-04,HML Sector Overview,9,Transport & Logistics,Shipping,5.0,13573.0,13613.0,10569.0
+2026-04,HML Sector Overview,9,Transport & Logistics,Logistics Infrastructure,1.0,763.0,763.0,430.0
+2026-04,HML Sector Overview,9,Transport & Logistics,Inland Waterways,1.0,5369.0,5061.0,3990.0
+2026-04,HML Sector Overview,10,Energy,Oil & Gas,96.0,370568.0,399478.0,201674.0
+2026-04,HML Sector Overview,10,Energy,Transmission & Distribution,69.0,208870.0,214833.0,69255.0
+2026-04,HML Sector Overview,10,Energy,Electricity Generation,40.0,340780.0,396049.0,159975.0
+2026-04,HML Sector Overview,10,Energy,Energy Storage,16.0,80623.0,119394.0,101617.0
+2026-04,HML Sector Overview,11,Water & Sanitation,Water Resources,40.0,117255.0,220989.0,160182.0
+2026-04,HML Sector Overview,11,Water & Sanitation,Waste & Water,27.0,8620.0,8720.0,5132.0
+2026-04,HML Sector Overview,12,Communication,Telecommunication,12.0,151125.0,273253.0,77036.0
+2026-04,HML Sector Overview,13,Social & Commercial,Healthcare,34.0,20124.0,24551.0,9947.0
+2026-04,HML Sector Overview,13,Social & Commercial,Education,31.0,16072.0,15520.0,8885.0
+2026-04,HML Sector Overview,13,Social & Commercial,Real Estate,11.0,49336.0,49382.0,15784.0
+2026-04,HML Sector Overview,13,Social & Commercial,"Tourism, Hospitality & Wellness",1.0,573.0,1238.0,615.0
+2026-04,HML Sector Overview,14,Others,Coal,119.0,187696.0,185434.0,49333.0
+2026-04,HML Sector Overview,14,Others,Steel,18.0,17812.0,21050.0,10073.0
+2026-04,HML Sector Overview,14,Others,Metals & Mining,6.0,9689.0,13843.0,7462.0
+2026-04,HML Sector Overview,14,Others,Construction,2.0,899.0,899.0,260.0
+2026-05,HML Sector Overview,9,Transport & Logistics,Roads & Highways,1149.0,1067985.0,1094635.0,377508.0
+2026-05,HML Sector Overview,9,Transport & Logistics,Railways,263.0,731511.0,884365.0,586201.0
+2026-05,HML Sector Overview,9,Transport & Logistics,Urban Public Transport,29.0,307835.0,326438.0,171813.0
+2026-05,HML Sector Overview,9,Transport & Logistics,Aviation & Aviation Infrastructure,26.0,21601.0,22815.0,11077.0
+2026-05,HML Sector Overview,9,Transport & Logistics,Shipping,6.0,14405.0,14445.0,10820.0
+2026-05,HML Sector Overview,9,Transport & Logistics,Logistics Infrastructure,2.0,2243.0,2243.0,430.0
+2026-05,HML Sector Overview,9,Transport & Logistics,Inland Waterways,1.0,5369.0,5061.0,4029.0
+2026-05,HML Sector Overview,10,Energy,Oil & Gas,93.0,362529.0,393368.0,383046.0
+2026-05,HML Sector Overview,10,Energy,Transmission & Distribution,67.0,203895.0,209859.0,66309.0
+2026-05,HML Sector Overview,10,Energy,Electricity Generation,38.0,350856.0,401582.0,140525.0
+2026-05,HML Sector Overview,10,Energy,Energy Storage,16.0,80623.0,120394.0,103092.0
+2026-05,HML Sector Overview,11,Water & Sanitation,Water Resources,32.0,98109.0,199840.0,141119.0
+2026-05,HML Sector Overview,11,Water & Sanitation,Waste & Water,24.0,8026.0,8125.0,4799.0
+2026-05,HML Sector Overview,12,Communication,Telecommunication,12.0,151125.0,253047.0,76237.0
+2026-05,HML Sector Overview,13,Social & Commercial,Healthcare,44.0,22607.0,27023.0,11466.0
+2026-05,HML Sector Overview,13,Social & Commercial,Education,31.0,16072.0,15520.0,8928.0
+2026-05,HML Sector Overview,13,Social & Commercial,Real Estate,12.0,50258.0,50324.0,16546.0
+2026-05,HML Sector Overview,13,Social & Commercial,"Tourism, Hospitality & Wellness",1.0,573.0,1238.0,624.0
+2026-05,HML Sector Overview,14,Others,Coal,115.0,185702.0,183440.0,48865.0
+2026-05,HML Sector Overview,14,Others,Steel,18.0,17812.0,21050.0,10474.0
+2026-05,HML Sector Overview,14,Others,Metals & Mining,6.0,9689.0,13843.0,7514.0
+2026-05,HML Sector Overview,14,Others,Construction,2.0,899.0,899.0,260.0
+2026-06,HML Sector Overview,9,Transport & Logistics,Roads & Highways,1022.0,969677.0,989066.0,448973.0
+2026-06,HML Sector Overview,9,Transport & Logistics,Railways,257.0,724664.0,873994.0,584469.0
+2026-06,HML Sector Overview,9,Transport & Logistics,Urban Public Transport,29.0,307835.0,326438.0,172730.0
+2026-06,HML Sector Overview,9,Transport & Logistics,Aviation & Aviation Infrastructure,25.0,21345.0,22559.0,11209.0
+2026-06,HML Sector Overview,9,Transport & Logistics,Shipping,6.0,14405.0,14445.0,10972.0
+2026-06,HML Sector Overview,9,Transport & Logistics,Logistics Infrastructure,1.0,763.0,763.0,430.0
+2026-06,HML Sector Overview,9,Transport & Logistics,Inland Waterways,1.0,5369.0,5061.0,4118.0
+2026-06,HML Sector Overview,10,Energy,Oil & Gas,91.0,362124.0,392963.0,386636.0
+2026-06,HML Sector Overview,10,Energy,Transmission & Distribution,64.0,197615.0,203579.0,65919.0
+2026-06,HML Sector Overview,10,Energy,Electricity Generation,38.0,350856.0,401582.0,142643.0
+2026-06,HML Sector Overview,10,Energy,Energy Storage,14.0,36838.0,40279.0,32754.0
+2026-06,HML Sector Overview,11,Water & Sanitation,Water Resources,32.0,98109.0,199840.0,143454.0
+2026-06,HML Sector Overview,11,Water & Sanitation,Waste & Water,24.0,8026.0,8125.0,4806.0
+2026-06,HML Sector Overview,12,Communication,Telecommunication,15.0,161792.0,263714.0,79930.0
+2026-06,HML Sector Overview,13,Social & Commercial,Healthcare,44.0,22607.0,27023.0,11594.0
+2026-06,HML Sector Overview,13,Social & Commercial,Education,31.0,16072.0,15558.0,9000.0
+2026-06,HML Sector Overview,13,Social & Commercial,Real Estate,12.0,50258.0,50324.0,16830.0
+2026-06,HML Sector Overview,13,Social & Commercial,"Tourism, Hospitality & Wellness",1.0,573.0,1238.0,637.0
+2026-06,HML Sector Overview,14,Others,Coal,115.0,184906.0,182644.0,51084.0
+2026-06,HML Sector Overview,14,Others,Steel,17.0,17298.0,20536.0,10585.0
+2026-06,HML Sector Overview,14,Others,Metals & Mining,6.0,9689.0,13843.0,7615.0
+2026-06,HML Sector Overview,14,Others,Construction,2.0,899.0,899.0,275.0
+2026-07,HML Sector Overview,9,Transport & Logistics,Roads & Highways,993.0,945371.0,961717.0,460545.0
+2026-07,HML Sector Overview,9,Transport & Logistics,Railways,192.0,469207.0,643473.0,461968.0
+2026-07,HML Sector Overview,9,Transport & Logistics,Urban Public Transport,30.0,320872.0,339476.0,178627.0
+2026-07,HML Sector Overview,9,Transport & Logistics,Aviation & Aviation Infrastructure,25.0,21345.0,22772.0,11586.0
+2026-07,HML Sector Overview,9,Transport & Logistics,Shipping,4.0,7573.0,7613.0,5246.0
+2026-07,HML Sector Overview,9,Transport & Logistics,Logistics Infrastructure,1.0,763.0,763.0,430.0
+2026-07,HML Sector Overview,9,Transport & Logistics,Inland Waterways,1.0,5369.0,5061.0,4187.0
+2026-07,HML Sector Overview,10,Energy,Oil & Gas,91.0,362394.0,394917.0,204671.0
+2026-07,HML Sector Overview,10,Energy,Transmission & Distribution,63.0,197391.0,203354.0,68897.0
+2026-07,HML Sector Overview,10,Energy,Electricity Generation,39.0,389214.0,439436.0,146800.0
+2026-07,HML Sector Overview,10,Energy,Energy Storage,12.0,25152.0,28441.0,23049.0
+2026-07,HML Sector Overview,11,Water & Sanitation,Water Resources,30.0,96487.0,197110.0,140511.0
+2026-07,HML Sector Overview,11,Water & Sanitation,Waste & Water,23.0,7790.0,7889.0,4588.0
+2026-07,HML Sector Overview,12,Communication,Telecommunication,31.0,207195.0,133825.0,102879.0
+2026-07,HML Sector Overview,13,Social & Commercial,Healthcare,44.0,23350.0,28175.0,12039.0
+2026-07,HML Sector Overview,13,Social & Commercial,Education,31.0,16072.0,15585.0,9210.0
+2026-07,HML Sector Overview,13,Social & Commercial,Real Estate,15.0,54230.0,54296.0,16985.0
+2026-07,HML Sector Overview,13,Social & Commercial,"Tourism, Hospitality & Wellness",1.0,573.0,1238.0,656.0
+2026-07,HML Sector Overview,14,Others,Coal,115.0,184578.0,182551.0,52369.0
+2026-07,HML Sector Overview,14,Others,Steel,26.0,24625.0,28207.0,12877.0
+2026-07,HML Sector Overview,14,Others,Metals & Mining,6.0,9689.0,13843.0,7693.0
+2026-07,HML Sector Overview,14,Others,Construction,2.0,899.0,899.0,288.0
+2026-08,HML Sector Overview,9,Transport & Logistics,Roads & Highways,982.0,937452.0,951926.0,510396.0
+2026-08,HML Sector Overview,9,Transport & Logistics,Railways,149.0,229288.0,319238.0,188418.0
+2026-08,HML Sector Overview,9,Transport & Logistics,Urban Public Transport,29.0,297736.0,302200.0,144664.0
+2026-08,HML Sector Overview,9,Transport & Logistics,Aviation & Aviation Infrastructure,26.0,21825.0,23252.0,11904.0
+2026-08,HML Sector Overview,9,Transport & Logistics,Shipping,4.0,7573.0,7613.0,5405.0
+2026-08,HML Sector Overview,9,Transport & Logistics,Logistics Infrastructure,1.0,763.0,763.0,430.0
+2026-08,HML Sector Overview,10,Energy,Oil & Gas,104.0,379840.0,412878.0,206955.0
+2026-08,HML Sector Overview,10,Energy,Transmission & Distribution,67.0,207446.0,213410.0,72153.0
+2026-08,HML Sector Overview,10,Energy,Electricity Generation,39.0,389214.0,439436.0,149819.0
+2026-08,HML Sector Overview,10,Energy,Energy Storage,13.0,25585.0,28874.0,23358.0
+2026-08,HML Sector Overview,11,Water & Sanitation,Water Resources,30.0,96487.0,195812.0,140895.0
+2026-08,HML Sector Overview,11,Water & Sanitation,Waste & Water,23.0,7790.0,7889.0,4786.0
+2026-08,HML Sector Overview,12,Communication,Telecommunication,31.0,158795.0,133825.0,64410.0
+2026-08,HML Sector Overview,13,Social & Commercial,Healthcare,33.0,20619.0,25444.0,10887.0
+2026-08,HML Sector Overview,13,Social & Commercial,Education,32.0,16152.0,15688.0,8926.0
+2026-08,HML Sector Overview,13,Social & Commercial,Real Estate,15.0,54230.0,54296.0,17189.0
+2026-08,HML Sector Overview,13,Social & Commercial,"Tourism, Hospitality & Wellness",1.0,573.0,1238.0,674.0
+2026-08,HML Sector Overview,14,Others,Coal,116.0,184952.0,182926.0,49817.0
+2026-08,HML Sector Overview,14,Others,Steel,26.0,24625.0,28207.0,13364.0
+2026-08,HML Sector Overview,14,Others,Metals & Mining,8.0,10104.0,14258.0,7807.0
+2026-08,HML Sector Overview,14,Others,Construction,2.0,899.0,899.0,305.0

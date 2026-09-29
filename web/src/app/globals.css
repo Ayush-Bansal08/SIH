@@ -1,0 +1,136 @@
+@import "tailwindcss";
+
+/*
+  PAIMANA-PRISM design tokens.
+  Identity borrowed from PAIMANA (MoSPI navy, PAIMANA cyan, a saffron accent) and
+  rebuilt for an analytical, light-first, WCAG-AA interface. Risk is always shown
+  with a text label and an icon, never by colour alone.
+*/
+@theme {
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, "Segoe UI", sans-serif;
+  --font-serif: var(--font-serif-display), "Times New Roman", serif;
+  --font-mono: ui-monospace, "Cascadia Code", "SFMono-Regular", Menlo, monospace;
+
+  /* Brand */
+  --color-navy-950: #0a0a0a;
+  --color-navy-900: #111111;
+  --color-navy-800: #171717;
+  --color-navy-700: #2a2a28;
+  --color-navy-100: #e8e8e5;
+  --color-navy-50: #f4f4f2;
+
+  --color-prism-800: #0a0a0a;
+  --color-prism-700: #171717;
+  --color-prism-600: #262626;
+  --color-prism-500: #4a4a47;
+  --color-prism-100: #e8e8e5;
+  --color-prism-50: #f4f4f2;
+
+  --color-saffron-600: #b95c00;
+  --color-saffron-500: #e8871e;
+  --color-saffron-100: #fdebd3;
+
+  /* Neutrals */
+  --color-ink: #0a0a0a;
+  --color-ink-muted: #4d4d4a;
+  --color-ink-subtle: #63635f;
+  --color-canvas: #fafaf8;
+  --color-surface: #ffffff;
+  --color-line: #ebebe7;
+  --color-line-strong: #d5d5d0;
+
+  /* Risk bands (text colours pass AA on white and on their tints) */
+  --color-risk-high: #b42318;
+  --color-risk-high-bg: #fef3f2;
+  --color-risk-high-line: #fecdca;
+  --color-risk-elevated: #b93815;
+  --color-risk-elevated-bg: #fff4ed;
+  --color-risk-elevated-line: #f9dbaf;
+  --color-risk-moderate: #8a5a00;
+  --color-risk-moderate-bg: #fffaeb;
+  --color-risk-moderate-line: #fedf89;
+  --color-risk-low: #067647;
+  --color-risk-low-bg: #ecfdf3;
+  --color-risk-low-line: #abefc6;
+
+  /* Evidence classes */
+  --color-ev-official: #1f1f1d;
+  --color-ev-official-bg: #efefec;
+  --color-ev-derived: #2d5b5e;
+  --color-ev-derived-bg: #edf3f2;
+  --color-ev-model: #4a3f86;
+  --color-ev-model-bg: #f1eff8;
+  --color-ev-illustrative: #86480b;
+  --color-ev-illustrative-bg: #faf2e6;
+
+  --shadow-card: 0 1px 0 rgb(0 0 0 / 0.02);
+  --shadow-raised: 0 18px 40px -18px rgb(0 0 0 / 0.18);
+
+  --animate-rise: rise 360ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  @keyframes rise {
+    from { opacity: 0; transform: translateY(6px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  --animate-shimmer: shimmer 1.4s linear infinite;
+  @keyframes shimmer {
+    from { background-position: -200% 0; }
+    to { background-position: 200% 0; }
+  }
+}
+
+@layer base {
+  html {
+    overflow-x: clip;
+    color: var(--color-ink);
+    background: var(--color-canvas);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    min-height: 100dvh;
+    background: var(--color-canvas);
+    /* hidden tooltips are absolutely positioned; never let them widen the page */
+    overflow-x: clip;
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-ink);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: var(--color-prism-100);
+  }
+}
+
+@layer utilities {
+  .tabular {
+    font-variant-numeric: tabular-nums;
+  }
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Advisor: a calm moving line from source to destination (static when motion is reduced) */
+.prism-flow {
+  background: repeating-linear-gradient(90deg, var(--color-saffron-500) 0 14px, transparent 14px 24px);
+  background-size: 24px 3px;
+  background-repeat: repeat-x;
+  background-position: 0 50%;
+  animation: prism-flow 900ms linear infinite;
+  mask-image: linear-gradient(90deg, transparent, #000 15%, #000 85%, transparent);
+}
+@keyframes prism-flow {
+  to { background-position: 24px 50%; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

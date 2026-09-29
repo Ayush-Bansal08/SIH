@@ -1,0 +1,66 @@
+{
+  "pipeline_version": "0.1.0",
+  "generated_at": "2026-09-29T00:52:38+00:00",
+  "latest_month": "2026-08",
+  "sources": [
+    {
+      "label": "Flash Report #486 (2026-04)",
+      "month": "2026-04",
+      "file": "reference/FlashReport_2026-04.pdf",
+      "sha256": "90a6959e976da6928440efdea9c68847d1178356e4c0ebd078c51026ddb118d5",
+      "origin": "https://paimana-proj.mospi.gov.in/ReportPage"
+    },
+    {
+      "label": "Flash Report #487 (2026-05)",
+      "month": "2026-05",
+      "file": "reference/FlashReport_2026-05.pdf",
+      "sha256": "480d98632cd1b1d4fe70b58a5a753924b2735b0135e7c8507c1ec05ff2ddf005",
+      "origin": "https://paimana-proj.mospi.gov.in/ReportPage"
+    },
+    {
+      "label": "Flash Report #488 (2026-06)",
+      "month": "2026-06",
+      "file": "reference/FlashReport_2026-06.pdf",
+      "sha256": "d26872ac9336b451d311e823646560d29d8a6c2fbc9fdca9fd78fc22fd08ca15",
+      "origin": "https://paimana-proj.mospi.gov.in/ReportPage"
+    },
+    {
+      "label": "Flash Report #489 (2026-07)",
+      "month": "2026-07",
+      "file": "reference/FlashReport_2026-07.pdf",
+      "sha256": "dcf52cea3b2ed6f97a49739af833f877c2afb55f61d5c43cb162f97ef6f3a9f3",
+      "origin": "https://paimana-proj.mospi.gov.in/ReportPage"
+    },
+    {
+      "label": "Flash Report #490 (2026-08)",
+      "month": "2026-08",
+      "file": "reference/FlashReport_2026-08.pdf",
+      "sha256": "af9fad425ca081ab4c1fa49fedc1640ac0e6b199f04372761a31507754a03b02",
+      "origin": "https://paimana-proj.mospi.gov.in/ReportPage"
+    }
+  ],
+  "row_counts": {
+    "ongoing_long": 9321,
+    "completed": 227,
+    "newly_added": 180,
+    "projects": 1731,
+    "lifecycle": 2771,
+    "kpis": 5,
+    "ministry_totals": 244,
+    "sector_overview": 109,
+    "group_totals": 219,
+    "agency_aliases": 241,
+    "report_notes": 11,
+    "extraction_issues": 0
+  },
+  "reconciliation": {
+    "checks": 855,
+    "passed": 855,
+    "failed": 0
+  },
+  "data_quality": {
+    "warning": 372,
+    "info": 160,
+    "error": 5
+  }
+}

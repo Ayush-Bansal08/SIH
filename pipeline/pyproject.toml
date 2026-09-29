@@ -1,0 +1,11 @@
+[project]
+name = "prism-pipeline"
+version = "0.1.0"
+description = "PAIMANA-PRISM data pipeline: official PAIMANA Flash Reports -> clean, reconciled, provenance-tagged tables"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+markers = ["integration: needs pipeline outputs in data/processed (run the CLI first)"]
+filterwarnings = ["ignore::DeprecationWarning"]

@@ -1,0 +1,11 @@
+# Extraction & data quality (all open source)
+pymupdf==1.28.2        # AGPL — fast PDF text + ruling-line table detection
+pandas==2.3.3
+pyarrow==25.0.1
+pytest>=8
+
+# Prototype data build (offline, run once; the web app runs no model)
+scikit-learn==1.7.2    # logistic regression, random forest, metrics
+xgboost==3.0.5         # gradient-boosted trees + exact TreeSHAP contributions
+lifelines==0.30.0      # Cox proportional hazards (time-varying)
+scipy==1.15.3

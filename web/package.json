@@ -1,0 +1,37 @@
+{
+  "name": "paimana-prism-web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "sync-data": "node scripts/sync-data.mjs",
+    "predev": "node scripts/sync-data.mjs",
+    "dev": "next dev",
+    "prebuild": "node scripts/sync-data.mjs",
+    "build": "next build",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types --no-warnings scripts/tests/ask-match.test.mjs",
+    "qa:links": "node scripts/qa/links.mjs",
+    "qa:e2e": "node scripts/qa/e2e.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^1.48.0",
+    "next": "^15.5.26",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/node": "^26.6.3",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "axe-core": "^4.13.0",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^5.9.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.28"
+  }
+}

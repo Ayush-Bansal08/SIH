@@ -1,0 +1,245 @@
+﻿source_month,source_table,source_page,project_count,original_cost_cr,revised_cost_cr,expenditure_cr,level,ministry,sector
+2026-04,Table 1,24,1.0,763.0,763.0,430.0,ministry_sector,Department for Promotion of Industry & Internal Trade,Logistics Infrastructure
+2026-04,Table 1,24,7.0,15586.25,15586.3,1244.36,ministry_sector,Department for Promotion of Industry & Internal Trade,Real Estate
+2026-04,Table 1,24,8.0,16349.25,,1674.36,ministry_total,Department for Promotion of Industry & Internal Trade,
+2026-04,Table 1,24,30.0,15165.68,14908.2,8310.52,ministry_sector,Department of Higher Education,Education
+2026-04,Table 1,24,30.0,15165.68,,8310.52,ministry_total,Department of Higher Education,
+2026-04,Table 1,24,1.0,906.47,611.74,574.12,ministry_sector,Department of Sports,Education
+2026-04,Table 1,24,1.0,906.47,,574.12,ministry_total,Department of Sports,
+2026-04,Table 1,24,12.0,151125.15,273253.0,77035.7,ministry_sector,Department of Telecommunications,Telecommunication
+2026-04,Table 1,24,12.0,151125.15,,77035.7,ministry_total,Department of Telecommunications,
+2026-04,Table 1,24,8.0,4039.12,4039.12,1643.05,ministry_sector,"Department of Water Resources, River Development & GR",Waste & Water
+2026-04,Table 1,24,40.0,117255.04,220989.0,160182.0,ministry_sector,"Department of Water Resources, River Development & GR",Water Resources
+2026-04,Table 1,24,48.0,121294.16,,161825.05,ministry_total,"Department of Water Resources, River Development & GR",
+2026-04,Table 1,24,26.0,21600.76,22814.8,10762.0,ministry_sector,Ministry of Civil Aviation,Aviation & Aviation Infrastructure
+2026-04,Table 1,24,26.0,21600.76,,10762.0,ministry_total,Ministry of Civil Aviation,
+2026-04,Table 1,24,117.0,185612.91,183069.0,48260.8,ministry_sector,Ministry of Coal,Coal
+2026-04,Table 1,24,9.0,56050.64,60593.8,29405.7,ministry_sector,Ministry of Coal,Electricity Generation
+2026-04,Table 1,24,2.0,3485.86,5002.87,2338.96,ministry_sector,Ministry of Coal,Railways
+2026-04,Table 1,24,128.0,245149.41,,80005.46,ministry_total,Ministry of Coal,
+2026-04,Table 1,24,23.0,17252.19,21471.0,8356.63,ministry_sector,Ministry of Health & Family Welfare,Healthcare
+2026-04,Table 1,24,23.0,17252.19,,8356.63,ministry_total,Ministry of Health & Family Welfare,
+2026-04,Table 1,24,1.0,644.0,644.0,161.57,ministry_sector,Ministry of Housing & Urban Affairs,Construction
+2026-04,Table 1,24,4.0,33749.85,33795.9,14539.5,ministry_sector,Ministry of Housing & Urban Affairs,Real Estate
+2026-04,Table 1,24,27.0,315168.47,335924.0,181939.0,ministry_sector,Ministry of Housing & Urban Affairs,Urban Public Transport
+2026-04,Table 1,24,19.0,4581.29,4680.57,3489.26,ministry_sector,Ministry of Housing & Urban Affairs,Waste & Water
+2026-04,Table 1,24,51.0,354143.61,,200129.33,ministry_total,Ministry of Housing & Urban Affairs,
+2026-04,Table 1,24,11.0,2871.72,3080.24,1590.0,ministry_sector,Ministry of Labour and Employment,Healthcare
+2026-04,Table 1,24,11.0,2871.72,,1590.0,ministry_total,Ministry of Labour and Employment,
+2026-04,Table 1,24,1.0,255.37,255.37,98.92,ministry_sector,Ministry of Mines,Construction
+2026-04,Table 1,24,5.0,7989.36,12087.2,7203.91,ministry_sector,Ministry of Mines,Metals & Mining
+2026-04,Table 1,24,6.0,8244.73,,7302.83,ministry_total,Ministry of Mines,
+2026-04,Table 1,24,16.0,80623.3,119394.0,101617.0,ministry_sector,Ministry of Petroleum & Natural Gas,Energy Storage
+2026-04,Table 1,24,96.0,370568.19,399478.0,201674.0,ministry_sector,Ministry of Petroleum & Natural Gas,Oil & Gas
+2026-04,Table 1,24,112.0,451191.49,,303291.0,ministry_total,Ministry of Petroleum & Natural Gas,
+2026-04,Table 1,24,1.0,5369.18,5061.15,3990.06,ministry_sector,"Ministry of Ports, Shipping and Waterways",Inland Waterways
+2026-04,Table 1,24,5.0,13572.5,13613.1,10569.4,ministry_sector,"Ministry of Ports, Shipping and Waterways",Shipping
+2026-04,Table 1,24,1.0,573.0,1238.05,614.91,ministry_sector,"Ministry of Ports, Shipping and Waterways","Tourism, Hospitality & Wellness"
+2026-04,Table 1,24,7.0,19514.68,,15174.37,ministry_total,"Ministry of Ports, Shipping and Waterways",
+2026-04,Table 1,24,2.0,2083.0,2365.0,1072.11,ministry_sector,Ministry of Power,Coal
+2026-04,Table 1,24,31.0,284729.2,335456.0,130569.0,ministry_sector,Ministry of Power,Electricity Generation
+2026-04,Table 1,24,69.0,208869.73,214833.0,69254.8,ministry_sector,Ministry of Power,Transmission & Distribution
+2026-04,Table 1,24,102.0,495681.93,,200895.91,ministry_total,Ministry of Power,
+2026-04,Table 1,24,260.0,718136.25,869473.0,578947.0,ministry_sector,Ministry of Railways,Railways
+2026-04,Table 1,24,260.0,718136.25,,578947.0,ministry_total,Ministry of Railways,
+2026-04,Table 1,24,1137.0,1054522.87,1081120.0,369902.0,ministry_sector,Ministry of Road Transport & Highways,Roads & Highways
+2026-04,Table 1,24,1137.0,1054522.87,,369902.0,ministry_total,Ministry of Road Transport & Highways,
+2026-04,Table 1,24,1.0,1700.0,1756.2,258.41,ministry_sector,Ministry of Steel,Metals & Mining
+2026-04,Table 1,24,18.0,17811.66,21050.0,10073.0,ministry_sector,Ministry of Steel,Steel
+2026-04,Table 1,24,19.0,19511.66,,10331.41,ministry_total,Ministry of Steel,
+2026-04,Table 1,24,1981.0,3712662.01,,2036107.69,grand_total,,
+2026-05,Table 1,24,2.0,2243.0,2243.0,430.0,ministry_sector,Department for Promotion of Industry & Internal Trade,Logistics Infrastructure
+2026-05,Table 1,24,8.0,16507.91,16507.9,1457.75,ministry_sector,Department for Promotion of Industry & Internal Trade,Real Estate
+2026-05,Table 1,24,10.0,18750.91,,1887.75,ministry_total,Department for Promotion of Industry & Internal Trade,
+2026-05,Table 1,24,30.0,15165.68,14908.2,8352.55,ministry_sector,Department of Higher Education,Education
+2026-05,Table 1,24,30.0,15165.68,,8352.55,ministry_total,Department of Higher Education,
+2026-05,Table 1,24,1.0,906.47,611.74,575.68,ministry_sector,Department of Sports,Education
+2026-05,Table 1,24,1.0,906.47,,575.68,ministry_total,Department of Sports,
+2026-05,Table 1,24,12.0,151125.15,253047.0,76237.3,ministry_sector,Department of Telecommunications,Telecommunication
+2026-05,Table 1,24,12.0,151125.15,,76237.3,ministry_total,Department of Telecommunications,
+2026-05,Table 1,24,8.0,4039.12,4039.12,1643.05,ministry_sector,"Department of Water Resources, River Development & GR",Waste & Water
+2026-05,Table 1,24,32.0,98109.28,199840.0,141119.0,ministry_sector,"Department of Water Resources, River Development & GR",Water Resources
+2026-05,Table 1,24,40.0,102148.4,,142762.05,ministry_total,"Department of Water Resources, River Development & GR",
+2026-05,Table 1,24,26.0,21600.76,22814.8,11077.3,ministry_sector,Ministry of Civil Aviation,Aviation & Aviation Infrastructure
+2026-05,Table 1,24,26.0,21600.76,,11077.3,ministry_total,Ministry of Civil Aviation,
+2026-05,Table 1,24,113.0,183618.68,181075.0,47831.3,ministry_sector,Ministry of Coal,Coal
+2026-05,Table 1,24,6.0,36781.81,36781.8,6331.46,ministry_sector,Ministry of Coal,Electricity Generation
+2026-05,Table 1,24,2.0,3485.86,5002.87,2338.96,ministry_sector,Ministry of Coal,Railways
+2026-05,Table 1,24,121.0,223886.35,,56501.72,ministry_total,Ministry of Coal,
+2026-05,Table 1,24,35.0,20308.19,24527.0,10306.3,ministry_sector,Ministry of Health & Family Welfare,Healthcare
+2026-05,Table 1,24,35.0,20308.19,,10306.3,ministry_total,Ministry of Health & Family Welfare,
+2026-05,Table 1,24,1.0,644.0,644.0,161.57,ministry_sector,Ministry of Housing & Urban Affairs,Construction
+2026-05,Table 1,24,4.0,33749.85,33816.0,15088.0,ministry_sector,Ministry of Housing & Urban Affairs,Real Estate
+2026-05,Table 1,24,29.0,307834.71,326438.0,171813.0,ministry_sector,Ministry of Housing & Urban Affairs,Urban Public Transport
+2026-05,Table 1,24,16.0,3986.5,4085.78,3156.09,ministry_sector,Ministry of Housing & Urban Affairs,Waste & Water
+2026-05,Table 1,24,50.0,346215.06,,190218.66,ministry_total,Ministry of Housing & Urban Affairs,
+2026-05,Table 1,24,9.0,2299.24,2496.24,1160.04,ministry_sector,Ministry of Labour and Employment,Healthcare
+2026-05,Table 1,24,9.0,2299.24,,1160.04,ministry_total,Ministry of Labour and Employment,
+2026-05,Table 1,24,1.0,255.37,255.37,98.92,ministry_sector,Ministry of Mines,Construction
+2026-05,Table 1,24,5.0,7989.36,12087.2,7250.79,ministry_sector,Ministry of Mines,Metals & Mining
+2026-05,Table 1,24,6.0,8244.73,,7349.71,ministry_total,Ministry of Mines,
+2026-05,Table 1,24,16.0,80623.3,120394.0,103092.0,ministry_sector,Ministry of Petroleum & Natural Gas,Energy Storage
+2026-05,Table 1,24,93.0,362529.04,393368.0,383046.0,ministry_sector,Ministry of Petroleum & Natural Gas,Oil & Gas
+2026-05,Table 1,24,109.0,443152.34,,486138.0,ministry_total,Ministry of Petroleum & Natural Gas,
+2026-05,Table 1,24,1.0,5369.18,5061.15,4028.82,ministry_sector,"Ministry of Ports, Shipping and Waterways",Inland Waterways
+2026-05,Table 1,24,6.0,14404.75,14445.4,10820.0,ministry_sector,"Ministry of Ports, Shipping and Waterways",Shipping
+2026-05,Table 1,24,1.0,573.0,1238.05,624.41,ministry_sector,"Ministry of Ports, Shipping and Waterways","Tourism, Hospitality & Wellness"
+2026-05,Table 1,24,8.0,20346.93,,15473.23,ministry_total,"Ministry of Ports, Shipping and Waterways",
+2026-05,Table 1,24,2.0,2083.0,2365.0,1033.41,ministry_sector,Ministry of Power,Coal
+2026-05,Table 1,24,32.0,314074.05,364801.0,134194.0,ministry_sector,Ministry of Power,Electricity Generation
+2026-05,Table 1,24,67.0,203895.17,209859.0,66309.2,ministry_sector,Ministry of Power,Transmission & Distribution
+2026-05,Table 1,24,101.0,520052.22,,201536.61,ministry_total,Ministry of Power,
+2026-05,Table 1,24,261.0,728025.49,879362.0,583862.0,ministry_sector,Ministry of Railways,Railways
+2026-05,Table 1,24,261.0,728025.49,,583862.0,ministry_total,Ministry of Railways,
+2026-05,Table 1,24,1149.0,1067985.07,1094640.0,377508.0,ministry_sector,Ministry of Road Transport & Highways,Roads & Highways
+2026-05,Table 1,24,1149.0,1067985.07,,377508.0,ministry_total,Ministry of Road Transport & Highways,
+2026-05,Table 1,24,1.0,1700.0,1756.2,263.01,ministry_sector,Ministry of Steel,Metals & Mining
+2026-05,Table 1,24,18.0,17811.66,21050.0,10473.8,ministry_sector,Ministry of Steel,Steel
+2026-05,Table 1,24,19.0,19511.66,,10736.81,ministry_total,Ministry of Steel,
+2026-05,Table 1,24,1987.0,3709724.65,,2181683.71,grand_total,,
+2026-06,Table 1,24,1.0,763.0,763.0,430.0,ministry_sector,Department for Promotion of Industry & Internal Trade,Logistics Infrastructure
+2026-06,Table 1,24,8.0,16507.91,16507.9,1742.34,ministry_sector,Department for Promotion of Industry & Internal Trade,Real Estate
+2026-06,Table 1,24,9.0,17270.91,,2172.34,ministry_total,Department for Promotion of Industry & Internal Trade,
+2026-06,Table 1,24,30.0,15165.68,14945.9,8423.25,ministry_sector,Department of Higher Education,Education
+2026-06,Table 1,24,30.0,15165.68,,8423.25,ministry_total,Department of Higher Education,
+2026-06,Table 1,24,1.0,906.47,611.74,576.37,ministry_sector,Department of Sports,Education
+2026-06,Table 1,24,1.0,906.47,,576.37,ministry_total,Department of Sports,
+2026-06,Table 1,24,15.0,161792.15,263714.0,79930.2,ministry_sector,Department of Telecommunications,Telecommunication
+2026-06,Table 1,24,15.0,161792.15,,79930.2,ministry_total,Department of Telecommunications,
+2026-06,Table 1,24,8.0,4039.12,4039.12,1655.55,ministry_sector,"Department of Water Resources, River Development & GR",Waste & Water
+2026-06,Table 1,24,32.0,98109.28,199840.0,143454.0,ministry_sector,"Department of Water Resources, River Development & GR",Water Resources
+2026-06,Table 1,24,40.0,102148.4,,145109.55,ministry_total,"Department of Water Resources, River Development & GR",
+2026-06,Table 1,24,25.0,21345.07,22559.1,11209.2,ministry_sector,Ministry of Civil Aviation,Aviation & Aviation Infrastructure
+2026-06,Table 1,24,25.0,21345.07,,11209.2,ministry_total,Ministry of Civil Aviation,
+2026-06,Table 1,24,113.0,182823.26,180279.0,50030.4,ministry_sector,Ministry of Coal,Coal
+2026-06,Table 1,24,6.0,36781.81,36781.8,6166.01,ministry_sector,Ministry of Coal,Electricity Generation
+2026-06,Table 1,24,2.0,3485.86,5002.87,2505.92,ministry_sector,Ministry of Coal,Railways
+2026-06,Table 1,24,121.0,223090.93,,58702.33,ministry_total,Ministry of Coal,
+2026-06,Table 1,24,35.0,20308.19,24527.0,10433.5,ministry_sector,Ministry of Health & Family Welfare,Healthcare
+2026-06,Table 1,24,35.0,20308.19,,10433.5,ministry_total,Ministry of Health & Family Welfare,
+2026-06,Table 1,24,1.0,644.0,644.0,175.79,ministry_sector,Ministry of Housing & Urban Affairs,Construction
+2026-06,Table 1,24,4.0,33749.85,33816.0,15088.0,ministry_sector,Ministry of Housing & Urban Affairs,Real Estate
+2026-06,Table 1,24,29.0,307834.71,326438.0,172730.0,ministry_sector,Ministry of Housing & Urban Affairs,Urban Public Transport
+2026-06,Table 1,24,16.0,3986.5,4085.78,3150.88,ministry_sector,Ministry of Housing & Urban Affairs,Waste & Water
+2026-06,Table 1,24,50.0,346215.06,,191144.67,ministry_total,Ministry of Housing & Urban Affairs,
+2026-06,Table 1,24,9.0,2299.24,2496.24,1160.08,ministry_sector,Ministry of Labour and Employment,Healthcare
+2026-06,Table 1,24,9.0,2299.24,,1160.08,ministry_total,Ministry of Labour and Employment,
+2026-06,Table 1,24,1.0,255.37,255.37,98.92,ministry_sector,Ministry of Mines,Construction
+2026-06,Table 1,24,5.0,7989.36,12087.2,7351.9,ministry_sector,Ministry of Mines,Metals & Mining
+2026-06,Table 1,24,6.0,8244.73,,7450.82,ministry_total,Ministry of Mines,
+2026-06,Table 1,24,14.0,36838.3,40278.8,32754.4,ministry_sector,Ministry of Petroleum & Natural Gas,Energy Storage
+2026-06,Table 1,24,91.0,362124.04,392963.0,386636.0,ministry_sector,Ministry of Petroleum & Natural Gas,Oil & Gas
+2026-06,Table 1,24,105.0,398962.34,,419390.4,ministry_total,Ministry of Petroleum & Natural Gas,
+2026-06,Table 1,24,1.0,5369.18,5061.15,4117.61,ministry_sector,"Ministry of Ports, Shipping and Waterways",Inland Waterways
+2026-06,Table 1,24,6.0,14404.75,14445.4,10972.0,ministry_sector,"Ministry of Ports, Shipping and Waterways",Shipping
+2026-06,Table 1,24,1.0,573.0,1238.05,636.91,ministry_sector,"Ministry of Ports, Shipping and Waterways","Tourism, Hospitality & Wellness"
+2026-06,Table 1,24,8.0,20346.93,,15726.52,ministry_total,"Ministry of Ports, Shipping and Waterways",
+2026-06,Table 1,24,2.0,2083.0,2365.0,1053.41,ministry_sector,Ministry of Power,Coal
+2026-06,Table 1,24,32.0,314074.05,364801.0,136477.0,ministry_sector,Ministry of Power,Electricity Generation
+2026-06,Table 1,24,64.0,197615.23,203579.0,65919.5,ministry_sector,Ministry of Power,Transmission & Distribution
+2026-06,Table 1,24,98.0,513772.28,,203449.91,ministry_total,Ministry of Power,
+2026-06,Table 1,24,255.0,721177.95,868991.0,581963.0,ministry_sector,Ministry of Railways,Railways
+2026-06,Table 1,24,255.0,721177.95,,581963.0,ministry_total,Ministry of Railways,
+2026-06,Table 1,24,1022.0,969676.9,989066.0,448973.0,ministry_sector,Ministry of Road Transport & Highways,Roads & Highways
+2026-06,Table 1,24,1022.0,969676.9,,448973.0,ministry_total,Ministry of Road Transport & Highways,
+2026-06,Table 1,24,1.0,1700.0,1756.2,263.01,ministry_sector,Ministry of Steel,Metals & Mining
+2026-06,Table 1,24,17.0,17297.84,20536.1,10585.1,ministry_sector,Ministry of Steel,Steel
+2026-06,Table 1,24,18.0,18997.84,,10848.11,ministry_total,Ministry of Steel,
+2026-06,Table 1,24,1847.0,3561721.07,,2196663.25,grand_total,,
+2026-07,Table 1,24,1.0,763.0,763.0,430.0,ministry_sector,Department for Promotion of Industry & Internal Trade,Logistics Infrastructure
+2026-07,Table 1,24,11.0,20480.02,20480.02,1893.94,ministry_sector,Department for Promotion of Industry & Internal Trade,Real Estate
+2026-07,Table 1,24,12.0,21243.02,,2323.94,ministry_total,Department for Promotion of Industry & Internal Trade,
+2026-07,Table 1,24,30.0,15165.68,14973.27,8632.49,ministry_sector,Department of Higher Education,Education
+2026-07,Table 1,24,30.0,15165.68,,8632.49,ministry_total,Department of Higher Education,
+2026-07,Table 1,24,1.0,906.47,611.74,577.32,ministry_sector,Department of Sports,Education
+2026-07,Table 1,24,1.0,906.47,,577.32,ministry_total,Department of Sports,
+2026-07,Table 1,24,31.0,207194.71,133825.11,102879.15,ministry_sector,Department of Telecommunications,Telecommunication
+2026-07,Table 1,24,31.0,207194.71,,102879.15,ministry_total,Department of Telecommunications,
+2026-07,Table 1,24,8.0,4039.12,4039.12,1658.37,ministry_sector,"Department of Water Resources, River Development & GR",Waste & Water
+2026-07,Table 1,24,30.0,96487.38,197109.95,140510.51,ministry_sector,"Department of Water Resources, River Development & GR",Water Resources
+2026-07,Table 1,24,38.0,100526.5,,142168.88,ministry_total,"Department of Water Resources, River Development & GR",
+2026-07,Table 1,24,25.0,21345.07,22771.55,11586.47,ministry_sector,Ministry of Civil Aviation,Aviation & Aviation Infrastructure
+2026-07,Table 1,24,25.0,21345.07,,11586.47,ministry_total,Ministry of Civil Aviation,
+2026-07,Table 1,24,113.0,182494.77,180186.43,51305.23,ministry_sector,Ministry of Coal,Coal
+2026-07,Table 1,24,6.0,36781.81,36781.81,6354.71,ministry_sector,Ministry of Coal,Electricity Generation
+2026-07,Table 1,24,2.0,3485.86,5002.87,2577.5,ministry_sector,Ministry of Coal,Railways
+2026-07,Table 1,24,121.0,222762.44,,60237.44,ministry_total,Ministry of Coal,
+2026-07,Table 1,24,35.0,21050.26,25678.42,10844.0,ministry_sector,Ministry of Health & Family Welfare,Healthcare
+2026-07,Table 1,24,35.0,21050.26,,10844.0,ministry_total,Ministry of Health & Family Welfare,
+2026-07,Table 1,24,1.0,644.0,644.0,188.69,ministry_sector,Ministry of Housing & Urban Affairs,Construction
+2026-07,Table 1,24,4.0,33749.85,33816.0,15090.75,ministry_sector,Ministry of Housing & Urban Affairs,Real Estate
+2026-07,Table 1,24,30.0,320872.37,339476.05,178627.24,ministry_sector,Ministry of Housing & Urban Affairs,Urban Public Transport
+2026-07,Table 1,24,15.0,3750.55,3849.83,2930.11,ministry_sector,Ministry of Housing & Urban Affairs,Waste & Water
+2026-07,Table 1,24,50.0,359016.77,,196836.79,ministry_total,Ministry of Housing & Urban Affairs,
+2026-07,Table 1,24,9.0,2299.24,2496.24,1194.92,ministry_sector,Ministry of Labour and Employment,Healthcare
+2026-07,Table 1,24,9.0,2299.24,,1194.92,ministry_total,Ministry of Labour and Employment,
+2026-07,Table 1,24,1.0,255.37,255.37,98.94,ministry_sector,Ministry of Mines,Construction
+2026-07,Table 1,24,5.0,7989.36,12087.17,7400.84,ministry_sector,Ministry of Mines,Metals & Mining
+2026-07,Table 1,24,6.0,8244.73,,7499.78,ministry_total,Ministry of Mines,
+2026-07,Table 1,24,12.0,25151.96,28440.82,23048.58,ministry_sector,Ministry of Petroleum & Natural Gas,Energy Storage
+2026-07,Table 1,24,91.0,362394.1,394917.26,204670.66,ministry_sector,Ministry of Petroleum & Natural Gas,Oil & Gas
+2026-07,Table 1,24,103.0,387546.06,,227719.24,ministry_total,Ministry of Petroleum & Natural Gas,
+2026-07,Table 1,24,1.0,5369.18,5061.15,4187.19,ministry_sector,"Ministry of Ports, Shipping and Waterways",Inland Waterways
+2026-07,Table 1,24,4.0,7572.5,7613.11,5245.77,ministry_sector,"Ministry of Ports, Shipping and Waterways",Shipping
+2026-07,Table 1,24,1.0,573.0,1238.05,656.38,ministry_sector,"Ministry of Ports, Shipping and Waterways","Tourism, Hospitality & Wellness"
+2026-07,Table 1,24,6.0,13514.68,,10089.34,ministry_total,"Ministry of Ports, Shipping and Waterways",
+2026-07,Table 1,24,2.0,2083.0,2365.0,1063.43,ministry_sector,Ministry of Power,Coal
+2026-07,Table 1,24,33.0,352432.05,402653.91,140445.0,ministry_sector,Ministry of Power,Electricity Generation
+2026-07,Table 1,24,63.0,197390.82,203354.39,68896.68,ministry_sector,Ministry of Power,Transmission & Distribution
+2026-07,Table 1,24,98.0,551905.87,,210405.11,ministry_total,Ministry of Power,
+2026-07,Table 1,24,190.0,465721.36,638469.92,459390.96,ministry_sector,Ministry of Railways,Railways
+2026-07,Table 1,24,190.0,465721.36,,459390.96,ministry_total,Ministry of Railways,
+2026-07,Table 1,24,993.0,945370.67,961717.26,460544.81,ministry_sector,Ministry of Road Transport & Highways,Roads & Highways
+2026-07,Table 1,24,993.0,945370.67,,460544.81,ministry_total,Ministry of Road Transport & Highways,
+2026-07,Table 1,24,1.0,1700.0,1756.2,292.01,ministry_sector,Ministry of Steel,Metals & Mining
+2026-07,Table 1,24,26.0,24624.69,28206.53,12876.92,ministry_sector,Ministry of Steel,Steel
+2026-07,Table 1,24,27.0,26324.69,,13168.93,ministry_total,Ministry of Steel,
+2026-07,Table 1,24,1775.0,3370138.22,,1926099.57,grand_total,,
+2026-08,Table 1,24,1.0,763.0,0.0,430.0,ministry_sector,Department for Promotion of Industry & Internal Trade,Logistics Infrastructure
+2026-08,Table 1,24,11.0,20480.02,0.0,2094.58,ministry_sector,Department for Promotion of Industry & Internal Trade,Real Estate
+2026-08,Table 1,24,12.0,21243.02,0.0,2524.58,ministry_total,Department for Promotion of Industry & Internal Trade,
+2026-08,Table 1,24,31.0,15245.61,0.0,8348.85,ministry_sector,Department of Higher Education,Education
+2026-08,Table 1,24,31.0,15245.61,0.0,8348.85,ministry_total,Department of Higher Education,
+2026-08,Table 1,24,1.0,906.47,0.0,577.32,ministry_sector,Department of Sports,Education
+2026-08,Table 1,24,1.0,906.47,0.0,577.32,ministry_total,Department of Sports,
+2026-08,Table 1,24,31.0,158794.71,0.0,64410.07,ministry_sector,Department of Telecommunications,Telecommunication
+2026-08,Table 1,24,31.0,158794.71,0.0,64410.07,ministry_total,Department of Telecommunications,
+2026-08,Table 1,24,8.0,4039.12,0.0,1833.61,ministry_sector,"Department of Water Resources, River Development & GR",Waste & Water
+2026-08,Table 1,24,30.0,96487.38,0.0,140895.38,ministry_sector,"Department of Water Resources, River Development & GR",Water Resources
+2026-08,Table 1,24,38.0,100526.5,0.0,142728.99,ministry_total,"Department of Water Resources, River Development & GR",
+2026-08,Table 1,24,26.0,21825.13,0.0,11903.84,ministry_sector,Ministry of Civil Aviation,Aviation & Aviation Infrastructure
+2026-08,Table 1,24,26.0,21825.13,0.0,11903.84,ministry_total,Ministry of Civil Aviation,
+2026-08,Table 1,24,114.0,182868.95,0.0,48745.33,ministry_sector,Ministry of Coal,Coal
+2026-08,Table 1,24,6.0,36781.81,0.0,6466.16,ministry_sector,Ministry of Coal,Electricity Generation
+2026-08,Table 1,24,2.0,3485.86,0.0,2577.5,ministry_sector,Ministry of Coal,Railways
+2026-08,Table 1,24,122.0,223136.62,0.0,57788.99,ministry_total,Ministry of Coal,
+2026-08,Table 1,24,24.0,18319.26,0.0,9637.14,ministry_sector,Ministry of Health & Family Welfare,Healthcare
+2026-08,Table 1,24,24.0,18319.26,0.0,9637.14,ministry_total,Ministry of Health & Family Welfare,
+2026-08,Table 1,24,1.0,644.0,0.0,206.31,ministry_sector,Ministry of Housing & Urban Affairs,Construction
+2026-08,Table 1,24,4.0,33749.85,0.0,15093.97,ministry_sector,Ministry of Housing & Urban Affairs,Real Estate
+2026-08,Table 1,24,29.0,297736.37,0.0,144664.19,ministry_sector,Ministry of Housing & Urban Affairs,Urban Public Transport
+2026-08,Table 1,24,15.0,3750.55,0.0,2952.39,ministry_sector,Ministry of Housing & Urban Affairs,Waste & Water
+2026-08,Table 1,24,49.0,335880.77,0.0,162916.86,ministry_total,Ministry of Housing & Urban Affairs,
+2026-08,Table 1,24,9.0,2299.24,0.0,1249.55,ministry_sector,Ministry of Labour and Employment,Healthcare
+2026-08,Table 1,24,9.0,2299.24,0.0,1249.55,ministry_total,Ministry of Labour and Employment,
+2026-08,Table 1,24,1.0,255.37,0.0,98.96,ministry_sector,Ministry of Mines,Construction
+2026-08,Table 1,24,5.0,7989.36,0.0,7496.81,ministry_sector,Ministry of Mines,Metals & Mining
+2026-08,Table 1,24,6.0,8244.73,0.0,7595.77,ministry_total,Ministry of Mines,
+2026-08,Table 1,24,13.0,25585.08,0.0,23358.06,ministry_sector,Ministry of Petroleum & Natural Gas,Energy Storage
+2026-08,Table 1,24,104.0,379839.57,0.0,206954.5,ministry_sector,Ministry of Petroleum & Natural Gas,Oil & Gas
+2026-08,Table 1,24,117.0,405424.65,0.0,230312.56,ministry_total,Ministry of Petroleum & Natural Gas,
+2026-08,Table 1,24,4.0,7572.5,0.0,5404.77,ministry_sector,"Ministry of Ports, Shipping and Waterways",Shipping
+2026-08,Table 1,24,1.0,573.0,0.0,674.35,ministry_sector,"Ministry of Ports, Shipping and Waterways","Tourism, Hospitality & Wellness"
+2026-08,Table 1,24,5.0,8145.5,0.0,6079.12,ministry_total,"Ministry of Ports, Shipping and Waterways",
+2026-08,Table 1,24,2.0,2083.0,0.0,1071.32,ministry_sector,Ministry of Power,Coal
+2026-08,Table 1,24,33.0,352432.05,0.0,143353.23,ministry_sector,Ministry of Power,Electricity Generation
+2026-08,Table 1,24,67.0,207446.47,0.0,72152.52,ministry_sector,Ministry of Power,Transmission & Distribution
+2026-08,Table 1,24,102.0,561961.52,0.0,216577.07,ministry_total,Ministry of Power,
+2026-08,Table 1,24,147.0,225802.03,0.0,185840.1,ministry_sector,Ministry of Railways,Railways
+2026-08,Table 1,24,147.0,225802.03,0.0,185840.1,ministry_total,Ministry of Railways,
+2026-08,Table 1,25,982.0,937452.25,0.0,510396.35,ministry_sector,Ministry of Road Transport & Highways,Roads & Highways
+2026-08,Table 1,25,982.0,937452.25,0.0,510396.35,ministry_total,Ministry of Road Transport & Highways,
+2026-08,Table 1,25,3.0,2114.35,0.0,309.8,ministry_sector,Ministry of Steel,Metals & Mining
+2026-08,Table 1,25,26.0,24624.69,0.0,13363.58,ministry_sector,Ministry of Steel,Steel
+2026-08,Table 1,25,29.0,26739.04,0.0,13673.38,ministry_total,Ministry of Steel,
+2026-08,Table 1,25,1731.0,3071947.05,0.0,1632560.54,grand_total,,
