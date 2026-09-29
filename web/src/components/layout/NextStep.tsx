@@ -6,7 +6,7 @@ export function NextStep({ href, label, question }: { href: string; label: strin
   return (
     <Link
       href={href}
-      className="group flex items-center justify-between gap-4 rounded-2xl border border-line bg-surface px-5 py-4 shadow-[var(--shadow-card)] transition-all hover:border-prism-100 hover:shadow-[var(--shadow-raised)]"
+      className="group mx-auto flex w-full max-w-3xl items-center justify-between gap-4 rounded-2xl border border-line bg-surface px-6 py-5 shadow-[var(--shadow-card)] transition-all hover:border-prism-100 hover:shadow-[var(--shadow-raised)]"
     >
       <span>
         <span className="block text-sm text-ink-muted">{question}</span>

@@ -44,7 +44,3 @@ export function railRows(): RailRow[] {
 export function sampleStates(): string[] {
   return [...new Set(projects.map((p) => p.state))].sort();
 }
-
-export function sampleMinistries(): string[] {
-  return [...new Set(projects.map((p) => p.ministry_short))].sort();
-}

@@ -68,21 +68,31 @@ function nextSteps(p: Project): { text: ReactNode; href?: string; cta?: string }
 function More({ title, hint, children, open = false }: { title: string; hint: string; children: ReactNode; open?: boolean }) {
   return (
     <details open={open} className="group rounded-2xl border border-line bg-surface">
-      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-5 py-4 [&::-webkit-details-marker]:hidden">
+      <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-6 py-5 [&::-webkit-details-marker]:hidden">
         <span>
           <span className="block font-medium text-ink">{title}</span>
           <span className="block text-sm text-ink-subtle">{hint}</span>
         </span>
         <ChevronDown className="size-5 shrink-0 text-ink-subtle transition-transform group-open:rotate-180" aria-hidden />
       </summary>
-      <div className="border-t border-line px-5 py-5">{children}</div>
+      <div className="border-t border-line px-6 py-6">{children}</div>
     </details>
+  );
+}
+
+/** Left-aligned heading for one part of the profile (the list sits on the left). */
+function PartTitle({ id, title, text }: { id: string; title: string; text?: ReactNode }) {
+  return (
+    <div className="mb-5">
+      <h2 id={id} className="text-2xl font-normal tracking-[-0.02em] text-ink">{title}</h2>
+      {text && <p className="mt-1.5 text-[15px] leading-relaxed text-ink-muted">{text}</p>}
+    </div>
   );
 }
 
 function Fact({ label, value, note, alert }: { label: string; value: string; note?: string; alert?: boolean }) {
   return (
-    <div className="rounded-2xl border border-line bg-surface p-4">
+    <div className="rounded-2xl border border-line bg-surface p-5">
       <p className="text-sm text-ink-muted">{label}</p>
       <p className="tabular mt-1.5 text-2xl font-normal tracking-[-0.01em] text-ink">{value}</p>
       {note && <p className={`mt-1 text-sm ${alert ? "font-medium text-risk-high" : "text-ink-subtle"}`}>{note}</p>}
@@ -106,7 +116,7 @@ export function ProjectProfile({ p, titleAs: Title = "h1" }: { p: Project; title
   const src = `${p.source.report} (${formatMonth(p.source.month)}), ${p.source.table}, page ${p.source.page}`;
 
   return (
-    <article className="space-y-6">
+    <article className="space-y-16">
       {/* 1. What is this project? */}
       <header>
         <nav aria-label="Breadcrumb" className="mb-3 text-sm text-ink-subtle lg:hidden">
@@ -155,29 +165,30 @@ export function ProjectProfile({ p, titleAs: Title = "h1" }: { p: Project; title
             </ul>
           </div>
         </div>
-        <div className="border-t border-line bg-canvas/60 px-6 py-5">
-          <h3 className="text-sm font-semibold text-ink">Suggested next steps</h3>
-          <ol className="mt-3 space-y-2.5">
-            {steps.map((s, i) => (
-              <li key={i} className="flex flex-wrap items-start gap-x-3 gap-y-2">
-                <span className="tabular mt-0.5 inline-flex size-5 shrink-0 items-center justify-center rounded-full bg-ink text-[11px] font-semibold text-white">{i + 1}</span>
-                <span className="min-w-0 flex-1 text-[15px] leading-relaxed text-ink">{s.text}</span>
-                {s.href && (
-                  <Link href={s.href} className="inline-flex items-center gap-1.5 rounded-full bg-ink px-3.5 py-1.5 text-sm font-medium text-white hover:bg-navy-700">
-                    <Scale className="size-3.5" aria-hidden /> {s.cta} <ArrowRight className="size-3.5" aria-hidden />
-                  </Link>
-                )}
-              </li>
-            ))}
-          </ol>
-          <p className="mt-3 text-xs text-ink-subtle">PRISM suggests; officials decide. Any budget move needs formal approval.</p>
-        </div>
+      </section>
+
+      {/* What to do */}
+      <section aria-labelledby="steps-title">
+        <PartTitle id="steps-title" title="Suggested next steps" text="PRISM suggests; officials decide. Any budget move needs formal approval." />
+        <ol className="space-y-3">
+          {steps.map((s, i) => (
+            <li key={i} className="flex flex-wrap items-center gap-x-4 gap-y-3 rounded-2xl border border-line bg-surface px-5 py-4">
+              <span className="tabular inline-flex size-7 shrink-0 items-center justify-center rounded-full bg-ink text-xs font-semibold text-white">{i + 1}</span>
+              <span className="min-w-0 flex-1 text-[15px] leading-relaxed text-ink">{s.text}</span>
+              {s.href && (
+                <Link href={s.href} className="inline-flex items-center gap-1.5 rounded-full bg-ink px-4 py-2 text-sm font-medium text-white hover:bg-navy-700">
+                  <Scale className="size-3.5" aria-hidden /> {s.cta} <ArrowRight className="size-3.5" aria-hidden />
+                </Link>
+              )}
+            </li>
+          ))}
+        </ol>
       </section>
 
       {/* Key facts */}
       <section aria-labelledby="facts-title">
-        <h2 id="facts-title" className="sr-only">Key facts</h2>
-        <div className="grid gap-3 sm:grid-cols-2 xl:grid-cols-4">
+        <PartTitle id="facts-title" title="Key facts" text={`From ${src}.`} />
+        <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
           <Fact
             label="Approved budget"
             value={formatCr(p.derived.sanctioned_cr, 0)}
@@ -192,45 +203,46 @@ export function ProjectProfile({ p, titleAs: Title = "h1" }: { p: Project; title
             alert={delay > 0}
           />
         </div>
-        <p className="mt-2 text-xs text-ink-subtle">
-          Figures from {src}. The score is a PRISM estimate, tested on past reports.
-        </p>
       </section>
 
-      {/* Two simple visual answers */}
-      <div className="grid gap-4 xl:grid-cols-2">
-        <section aria-labelledby="time-title" className="rounded-2xl border border-line bg-surface p-5">
-          <h2 id="time-title" className="font-medium text-ink">Is it on time?</h2>
-          <p className="mb-4 text-sm text-ink-subtle">{delay > 0 ? `No — the finish date has moved ${formatMonths(delay)} from the plan.` : "Yes — it is still on its original completion date."}</p>
+      {/* Two plain questions */}
+      <section aria-labelledby="time-title">
+        <PartTitle id="time-title" title="Is it on time?" text={delay > 0 ? `No — the finish date has moved ${formatMonths(delay)} from the plan.` : "Yes — it is still on its original completion date."} />
+        <div className="rounded-2xl border border-line bg-surface px-6 py-6">
           <ScheduleTimeline p={p} asOf={portfolio.as_of} />
-        </section>
-        <section aria-labelledby="money-title" className="rounded-2xl border border-line bg-surface p-5">
-          <h2 id="money-title" className="font-medium text-ink">Is the money on track?</h2>
-          <p className="mb-4 text-sm text-ink-subtle">
-            {over > 0.5
+        </div>
+      </section>
+
+      <section aria-labelledby="money-title">
+        <PartTitle
+          id="money-title"
+          title="Is the money on track?"
+          text={
+            over > 0.5
               ? "No — more has been spent than the approved budget."
               : spent - p.official.physical_progress_pct > 25
                 ? "Watch — spending is running ahead of the work done."
-                : "Broadly yes — spending is in line with the work done."}
-          </p>
-          <div className="space-y-4">
-            <MeterRow label="Work completed" value={p.official.physical_progress_pct} color="var(--color-ink)" />
-            <MeterRow
-              label="Budget spent"
-              value={Math.min(spent, 200)}
-              max={Math.max(100, Math.min(spent, 200))}
-              display={`${spent.toFixed(0)}%`}
-              color={over > 0.5 ? "var(--color-risk-high)" : "#8a8a85"}
-              marker={100}
-              markerLabel="Approved budget"
-            />
-          </div>
-        </section>
-      </div>
+                : "Broadly yes — spending is in line with the work done."
+          }
+        />
+        <div className="space-y-6 rounded-2xl border border-line bg-surface px-6 py-6">
+          <MeterRow label="Work completed" value={p.official.physical_progress_pct} color="var(--color-ink)" />
+          <MeterRow
+            label="Budget spent"
+            value={Math.min(spent, 200)}
+            max={Math.max(100, Math.min(spent, 200))}
+            display={`${spent.toFixed(0)}%`}
+            color={over > 0.5 ? "var(--color-risk-high)" : "#8a8a85"}
+            marker={100}
+            markerLabel="Approved budget"
+          />
+        </div>
+      </section>
 
       {/* Details on demand */}
-      <section aria-labelledby="more-title" className="space-y-3">
-        <h2 id="more-title" className="pt-2 text-[11px] font-medium uppercase tracking-[0.18em] text-ink-subtle">More details</h2>
+      <section aria-labelledby="more-title">
+        <PartTitle id="more-title" title="More details" text="The technical detail is folded away. Open any section to read it." />
+        <div className="space-y-3">
 
         <More title="How the score was worked out" hint="Two independent models, and how much each factor adds">
           <div className="grid gap-8 xl:grid-cols-2">
@@ -312,6 +324,7 @@ export function ProjectProfile({ p, titleAs: Title = "h1" }: { p: Project; title
             <CircleCheck className="size-3.5" aria-hidden /> Official values are shown exactly as printed.
           </p>
         </More>
+        </div>
       </section>
     </article>
   );

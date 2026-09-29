@@ -1,7 +1,7 @@
 "use client";
 
 import clsx from "clsx";
-import { ArrowRight, ArrowUp, Eraser, FileText, UserRound } from "lucide-react";
+import { ArrowRight, ArrowUp, ChevronDown, Eraser, FileText, UserRound } from "lucide-react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
@@ -115,9 +115,9 @@ export function AskPanel() {
   }, [turns]);
 
   return (
-    <div className="grid gap-6 lg:grid-cols-[minmax(0,1fr)_20rem]">
-      <section aria-label="Conversation" className="flex min-h-[32rem] flex-col rounded-2xl border border-line bg-surface shadow-[var(--shadow-card)]">
-        <div className="flex-1 space-y-5 p-5" aria-live="polite">
+    <div className="mx-auto max-w-3xl space-y-6">
+      <section aria-label="Conversation" className="flex min-h-[30rem] flex-col rounded-2xl border border-line bg-surface shadow-[var(--shadow-card)]">
+        <div className="flex-1 space-y-6 p-6" aria-live="polite">
           {/* Welcome */}
           <div className="flex gap-3">
             <PrismMark className="size-8 shrink-0" />
@@ -194,7 +194,7 @@ export function AskPanel() {
         </div>
 
         <form
-          className="flex items-center gap-2 border-t border-line p-3"
+          className="flex items-center gap-2 border-t border-line p-4"
           onSubmit={(e) => {
             e.preventDefault();
             submit(input);
@@ -222,25 +222,26 @@ export function AskPanel() {
         </form>
       </section>
 
-      <aside className="space-y-4">
-        <div className="rounded-2xl border border-line bg-surface p-4 shadow-[var(--shadow-card)]">
-          <p className="text-sm font-semibold text-navy-950">Try asking</p>
-          <ul className="mt-2 space-y-1.5">
-            {ask.intents.map((i) => (
-              <li key={i.id}>
-                <button type="button" onClick={() => submit(i.question)} className="text-left text-sm text-prism-700 hover:underline">
-                  {i.question}
-                </button>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="rounded-2xl border border-prism-100 bg-prism-50 p-4 text-sm leading-relaxed text-prism-800">
-          <p className="font-semibold">Grounded by design</p>
-          <p className="mt-1">{ask.disclaimer} There is no language model in this prototype: questions are matched to precomputed answers, so it cannot invent a number.</p>
-          <p className="mt-2 text-xs">Production path: a locally hosted, retrieval-grounded model on government premises, answering only from the same verified data.</p>
-        </div>
-      </aside>
+      <details className="group rounded-2xl border border-line bg-surface">
+        <summary className="flex cursor-pointer list-none items-center justify-between gap-4 px-6 py-4 font-medium text-ink [&::-webkit-details-marker]:hidden">
+          More questions you can ask
+          <ChevronDown className="size-5 shrink-0 text-ink-subtle transition-transform group-open:rotate-180" aria-hidden />
+        </summary>
+        <ul className="grid gap-x-6 gap-y-2 border-t border-line px-6 py-5 sm:grid-cols-2">
+          {ask.intents.map((i) => (
+            <li key={i.id}>
+              <button type="button" onClick={() => submit(i.question)} className="text-left text-sm text-prism-700 hover:underline">
+                {i.question}
+              </button>
+            </li>
+          ))}
+        </ul>
+      </details>
+
+      <p className="px-2 text-center text-sm leading-relaxed text-ink-muted">
+        <strong className="font-semibold text-ink">Grounded by design.</strong> {ask.disclaimer} There is no language model in this prototype: questions are matched to
+        precomputed answers, so it cannot invent a number. Production path: a locally hosted, retrieval-grounded model on government premises.
+      </p>
     </div>
   );
 }

@@ -115,7 +115,7 @@ try {
   await go("/");
   check("hero headline", (await text("h1")).includes("decision intelligence"));
   check("official project count settles to 1,731", await bodyHas("1,731"));
-  check("persona section present", await waitFor(`/meet meera/i.test(document.body.innerText)`));
+  check("before / after section present", await waitFor(`/what changes with prism/i.test(document.body.innerText)`));
 
   // ---------------------------------------------------------------- Command Center
   console.log("\nCommand Center");

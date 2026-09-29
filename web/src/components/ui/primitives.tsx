@@ -150,15 +150,25 @@ export function PageHeader({
   meta?: ReactNode;
 }) {
   return (
-    <header className="animate-rise flex flex-wrap items-end justify-between gap-4 pb-6">
+    <header className="animate-rise flex flex-wrap items-end justify-between gap-6 pt-4">
       <div className="max-w-3xl">
-        {eyebrow && <p className="mb-3 text-[11px] font-medium uppercase tracking-[0.18em] text-ink-subtle">{eyebrow}</p>}
+        {eyebrow && <p className="mb-4 text-[11px] font-medium uppercase tracking-[0.18em] text-ink-subtle">{eyebrow}</p>}
         <h1 className="text-balance text-3xl font-normal tracking-[-0.02em] text-ink sm:text-[2.6rem] sm:leading-[1.1]">{title}</h1>
-        {description && <p className="mt-2 text-base leading-relaxed text-ink-muted">{description}</p>}
-        {meta && <div className="mt-3 flex flex-wrap items-center gap-2">{meta}</div>}
+        {description && <p className="mt-4 text-lg leading-relaxed text-ink-muted">{description}</p>}
+        {meta && <div className="mt-4 flex flex-wrap items-center gap-2">{meta}</div>}
       </div>
       {actions && <div className="flex flex-wrap gap-2">{actions}</div>}
     </header>
+  );
+}
+
+/** Centred section heading with one plain-language line underneath. */
+export function SectionTitle({ id, title, text }: { id: string; title: ReactNode; text?: ReactNode }) {
+  return (
+    <div className="mx-auto mb-10 max-w-2xl text-center">
+      <h2 id={id} className="text-balance text-3xl font-normal tracking-[-0.02em] text-ink sm:text-4xl">{title}</h2>
+      {text && <p className="mt-3 text-base leading-relaxed text-ink-muted">{text}</p>}
+    </div>
   );
 }
 

@@ -27,30 +27,30 @@ export function ScheduleTimeline({ p, asOf }: { p: Project; asOf: string }) {
 
   return (
     <figure>
-      <svg viewBox={`0 0 ${W} 150`} className="h-auto w-full" role="img" aria-label={`Planned completion ${formatMonth(p.dates.original_completion)}, current target ${formatMonth(p.dates.expected_completion)}${late ? `, ${formatMonths(p.derived.delay_months)} later than planned` : ""}.`}>
+      <svg viewBox={`0 0 ${W} 172`} className="h-auto w-full" role="img" aria-label={`Planned completion ${formatMonth(p.dates.original_completion)}, current target ${formatMonth(p.dates.expected_completion)}${late ? `, ${formatMonths(p.derived.delay_months)} later than planned` : ""}.`}>
         {years.filter((_, i) => i % step === 0).map((t) => (
           <g key={t}>
-            <line x1={x(t)} x2={x(t)} y1={24} y2={118} stroke="#eef0f4" />
-            <text x={x(t)} y={142} textAnchor="middle" fontSize="11" fill="#6b7280">{year(t)}</text>
+            <line x1={x(t)} x2={x(t)} y1={24} y2={140} stroke="#eef0f4" />
+            <text x={x(t)} y={164} textAnchor="middle" fontSize="13" fill="#6b7280">{year(t)}</text>
           </g>
         ))}
         {/* planned */}
-        <text x={20} y={40} fontSize="11.5" fill="#4b5563">Planned</text>
+        <text x={20} y={40} fontSize="13" fill="#4b5563">Planned</text>
         <rect x={x(start)} y={48} width={Math.max(2, x(orig) - x(start))} height={14} rx={4} fill="#171717" />
         {/* current */}
-        <text x={20} y={86} fontSize="11.5" fill="#4b5563">Current</text>
+        <text x={20} y={86} fontSize="13" fill="#4b5563">Current</text>
         <rect x={x(start)} y={94} width={Math.max(2, x(Math.min(orig, current)) - x(start))} height={14} rx={4} fill="#8a8a85" />
         {late && <rect x={x(orig)} y={94} width={Math.max(2, x(current) - x(orig))} height={14} rx={4} fill="#b42318" fillOpacity={0.85} />}
         {late && (
-          <text x={(x(orig) + x(current)) / 2} y={124} textAnchor="middle" fontSize="11" fontWeight={600} fill="#b42318">
+          <text x={(x(orig) + x(current)) / 2} y={130} textAnchor="middle" fontSize="13" fontWeight={600} fill="#b42318">
             +{formatMonths(p.derived.delay_months)}
           </text>
         )}
         {/* today */}
-        <line x1={x(today)} x2={x(today)} y1={18} y2={118} stroke="#e8871e" strokeWidth={2} strokeDasharray="4 3" />
-        <text x={x(today)} y={13} textAnchor="middle" fontSize="11" fontWeight={600} fill="#b95c00">Report: {formatMonth(asOf)}</text>
+        <line x1={x(today)} x2={x(today)} y1={18} y2={140} stroke="#e8871e" strokeWidth={2} strokeDasharray="4 3" />
+        <text x={x(today)} y={13} textAnchor="middle" fontSize="13" fontWeight={600} fill="#b95c00">Report: {formatMonth(asOf)}</text>
       </svg>
-      <figcaption className="mt-2 grid grid-cols-2 gap-3 text-sm sm:grid-cols-4">
+      <figcaption className="mt-5 grid grid-cols-2 gap-4 border-t border-line pt-5 text-sm sm:grid-cols-4">
         <div><p className="text-xs text-ink-subtle">Approved</p><p className="font-medium text-ink">{formatMonth(p.dates.approval)}</p></div>
         <div><p className="text-xs text-ink-subtle">Started</p><p className="font-medium text-ink">{formatMonth(p.dates.start)}</p></div>
         <div><p className="text-xs text-ink-subtle">Original completion</p><p className="font-medium text-ink">{formatMonth(p.dates.original_completion)}</p></div>

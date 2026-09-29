@@ -2,7 +2,7 @@ import { BookOpen, ExternalLink, FileText, Gauge, ListOrdered, ScanSearch, UserC
 import type { Metadata } from "next";
 import Link from "next/link";
 import { table } from "@/components/ui/data";
-import { Callout, Card, CardBody, CardHeader, PageHeader } from "@/components/ui/primitives";
+import { Callout, Card, CardBody, PageHeader, SectionTitle } from "@/components/ui/primitives";
 import { EvidenceTag } from "@/components/ui/risk";
 import { advisor, evidence, portfolio } from "@/lib/data";
 import { formatInt, formatMonth } from "@/lib/format";
@@ -101,32 +101,36 @@ const PROTO_VS_PROD = [
 
 export default function MethodologyPage() {
   return (
-    <div className="space-y-10">
+    <div className="space-y-24 pb-8 sm:space-y-32">
       <PageHeader
         eyebrow="Methodology"
         title="From PAIMANA data to decision support"
-        description="PAIMANA tells you what happened. PRISM adds where to act next, why, and what options exist — using only the government's existing data and open-source tools."
+        description="PAIMANA tells you what happened. PRISM adds where to act next, why, and what options exist, using only the government's existing data and open-source tools."
       />
 
-      <section aria-labelledby="stages-title" className="space-y-4">
-        <h2 id="stages-title" className="text-xl font-semibold text-navy-950">Six steps</h2>
-        <ol className="space-y-3">
+      <section aria-labelledby="stages-title">
+        <SectionTitle id="stages-title" title="Six steps" text="From the official report to a decision. Each step links to where you can see it." />
+        <ol className="mx-auto max-w-5xl space-y-5">
           {STAGES.map((s, i) => (
             <li key={s.title}>
               <Card as="article">
-                <div className="grid gap-4 p-5 md:grid-cols-[14rem_1fr_1fr]">
-                  <div className="flex items-start gap-3">
-                    <span className="inline-flex size-10 shrink-0 items-center justify-center rounded-lg bg-navy-50 text-navy-800">
-                      <s.icon className="size-5" aria-hidden />
-                    </span>
-                    <div>
-                      <p className="tabular text-xs font-semibold text-ink-subtle">Step {i + 1}</p>
-                      <h3 className="font-semibold text-navy-950">{s.title}</h3>
-                      <Link href={s.href} className="text-xs font-medium text-prism-700 hover:underline">See it →</Link>
+                <div className="px-6 py-7 sm:px-8">
+                  <div className="flex flex-wrap items-center justify-between gap-3">
+                    <div className="flex items-center gap-4">
+                      <span className="inline-flex size-11 shrink-0 items-center justify-center rounded-xl bg-navy-50 text-navy-800">
+                        <s.icon className="size-5" aria-hidden />
+                      </span>
+                      <div>
+                        <p className="tabular text-xs font-semibold text-ink-subtle">Step {i + 1}</p>
+                        <h3 className="text-lg font-semibold text-navy-950">{s.title}</h3>
+                      </div>
                     </div>
+                    <Link href={s.href} className="text-sm font-medium text-prism-700 hover:underline">See it →</Link>
                   </div>
-                  <p className="text-sm leading-relaxed text-ink"><span className="block text-xs font-semibold uppercase tracking-wide text-ink-subtle">What</span>{s.what}</p>
-                  <p className="text-sm leading-relaxed text-ink-muted"><span className="block text-xs font-semibold uppercase tracking-wide text-ink-subtle">How</span>{s.how}</p>
+                  <div className="mt-6 grid gap-6 md:grid-cols-2">
+                    <p className="text-[15px] leading-relaxed text-ink"><span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-ink-subtle">What</span>{s.what}</p>
+                    <p className="text-[15px] leading-relaxed text-ink-muted"><span className="mb-1 block text-xs font-semibold uppercase tracking-wide text-ink-subtle">How</span>{s.how}</p>
+                  </div>
                 </div>
               </Card>
             </li>
@@ -134,36 +138,39 @@ export default function MethodologyPage() {
         </ol>
       </section>
 
-      <section aria-labelledby="labels-title" className="grid gap-6 lg:grid-cols-2">
-        <Card>
-          <CardHeader title="How to read every number" />
-          <CardBody>
-            <ul className="space-y-3 text-sm text-ink-muted">
-              <li className="flex items-start gap-3"><EvidenceTag kind="OFFICIAL" /> Printed in a PAIMANA Flash Report — shown exactly, with report number and page.</li>
-              <li className="flex items-start gap-3"><EvidenceTag kind="DERIVED" /> Calculated only from official figures, e.g. delay = current − original completion date.</li>
-              <li className="flex items-start gap-3"><EvidenceTag kind="MODEL ESTIMATE" /> PRISM&apos;s score — precomputed and tested on a month it never saw.</li>
-              <li className="flex items-start gap-3"><EvidenceTag kind="ILLUSTRATIVE" /> A decision-support scenario — never an instruction or a fund transfer.</li>
-            </ul>
-          </CardBody>
-        </Card>
-        <Callout tone="illustrative" className="self-start" title="Prototype disclaimer">
-          This is a prototype for Smart India Hackathon 2026 (PS SIH26103, MoSPI), not an official Government of India system. Official figures come from public PAIMANA Flash Reports; scores and scenarios are PRISM&apos;s own analysis. {advisor.caveat}
-        </Callout>
+      <section aria-labelledby="labels-title">
+        <SectionTitle id="labels-title" title="How to read every number" text="Every figure on this site carries one of four labels." />
+        <div className="mx-auto max-w-3xl space-y-6">
+          <Card>
+            <CardBody className="px-6 py-7 sm:px-8">
+              <ul className="space-y-4 text-[15px] leading-relaxed text-ink-muted">
+                <li className="flex items-start gap-3"><EvidenceTag kind="OFFICIAL" /> Printed in a PAIMANA Flash Report — shown exactly, with report number and page.</li>
+                <li className="flex items-start gap-3"><EvidenceTag kind="DERIVED" /> Calculated only from official figures, e.g. delay = current − original completion date.</li>
+                <li className="flex items-start gap-3"><EvidenceTag kind="MODEL ESTIMATE" /> PRISM&apos;s score — precomputed and tested on a month it never saw.</li>
+                <li className="flex items-start gap-3"><EvidenceTag kind="ILLUSTRATIVE" /> A decision-support scenario — never an instruction or a fund transfer.</li>
+              </ul>
+            </CardBody>
+          </Card>
+          <Callout tone="illustrative" title="Prototype disclaimer">
+            This is a prototype for Smart India Hackathon 2026 (PS SIH26103, MoSPI), not an official Government of India system. Official figures come from public PAIMANA Flash Reports; scores and scenarios are PRISM&apos;s own analysis. {advisor.caveat}
+          </Callout>
+        </div>
       </section>
 
-      <section aria-labelledby="research-title" className="space-y-4">
-        <div>
-          <h2 id="research-title" className="text-xl font-semibold text-navy-950">Built on established methods</h2>
-          <p className="text-sm text-ink-muted">Research shows the techniques are sound; PRISM applies them to PAIMANA&apos;s own data. None of these studies used PAIMANA itself.</p>
-        </div>
-        <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+      <section aria-labelledby="research-title">
+        <SectionTitle
+          id="research-title"
+          title="Built on established methods"
+          text="Research shows the techniques are sound; PRISM applies them to PAIMANA's own data. None of these studies used PAIMANA itself."
+        />
+        <div className="mx-auto grid max-w-5xl gap-5 md:grid-cols-2 lg:grid-cols-3">
           {RESEARCH.map((r) => (
             <Card key={r.id} as="article">
-              <CardBody className="flex h-full flex-col">
+              <CardBody className="flex h-full flex-col px-6 py-6">
                 <BookOpen className="size-4 text-prism-600" aria-hidden />
-                <p className="mt-2 text-sm leading-relaxed text-ink">{r.text}</p>
+                <p className="mt-3 text-[15px] leading-relaxed text-ink">{r.text}</p>
                 <p className="mt-3 text-xs text-ink-subtle">{r.cite}</p>
-                <a href={r.href} target="_blank" rel="noreferrer" className="mt-auto inline-flex items-center gap-1 pt-3 text-xs font-medium text-prism-700 hover:underline">
+                <a href={r.href} target="_blank" rel="noreferrer" className="mt-auto inline-flex items-center gap-1 pt-4 text-xs font-medium text-prism-700 hover:underline">
                   Source <ExternalLink className="size-3" aria-hidden />
                 </a>
               </CardBody>
@@ -173,24 +180,24 @@ export default function MethodologyPage() {
       </section>
 
       <section aria-labelledby="prod-title">
-        <Card>
-          <CardHeader title="Prototype today → production path" description="What is live in this prototype, and what the full system adds" />
+        <SectionTitle id="prod-title" title="Prototype today, production next" text="What is live in this prototype, and what the full system adds." />
+        <Card className="mx-auto max-w-5xl overflow-hidden">
           <div className="overflow-x-auto">
             <table className={table.table}>
               <caption className="sr-only">Prototype versus production</caption>
               <thead className={table.thead}>
                 <tr>
-                  <th scope="col" className={table.th}>Area</th>
+                  <th scope="col" className={`${table.th} px-6`}>Area</th>
                   <th scope="col" className={table.th}>In this prototype</th>
-                  <th scope="col" className={table.th}>Production path</th>
+                  <th scope="col" className={`${table.th} px-6`}>Production path</th>
                 </tr>
               </thead>
               <tbody>
                 {PROTO_VS_PROD.map(([area, now, next]) => (
                   <tr key={area} className={table.tr}>
-                    <th scope="row" className={`${table.td} text-left font-semibold text-navy-950`}>{area}</th>
-                    <td className={`${table.td} text-ink`}>{now}</td>
-                    <td className={`${table.td} text-ink-muted`}>{next}</td>
+                    <th scope="row" className={`${table.td} px-6 py-4 text-left font-semibold text-navy-950`}>{area}</th>
+                    <td className={`${table.td} py-4 text-ink`}>{now}</td>
+                    <td className={`${table.td} px-6 py-4 text-ink-muted`}>{next}</td>
                   </tr>
                 ))}
               </tbody>
